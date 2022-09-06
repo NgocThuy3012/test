@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import banner from "./assets/img/main-banner.jpg"
 import Introduction from './components/Introduction/Introduction';
+import BestProduct from './components/BestProduct/BestProduct';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         />
       </div>
       <Introduction/>
+      <BestProduct/>
     </div>
   );
 }
