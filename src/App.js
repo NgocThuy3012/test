@@ -5,6 +5,9 @@ import Introduction from './components/Introduction/Introduction';
 import BestProduct from './components/BestProduct/BestProduct';
 import ListProduct from './components/ListProduct/ListProduct';
 import BrandStory from './components/BrandStory/BrandStory';
+import Issue from './components/Issue/Issue';
+import Comment from './components/Comment/Comment';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
       <BestProduct/>
       <ListProduct/>
       <BrandStory/>
+      <Issue/>
+      <Comment/>
+      <Footer/>
     </div>
   );
 }

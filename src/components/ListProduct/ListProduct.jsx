@@ -24,6 +24,7 @@ import img22 from "../../assets/img/img-22.jpg"
 import img23 from "../../assets/img/img-23.jpg"
 import img24 from "../../assets/img/img-24.jpg"
 import img25 from "../../assets/img/img-25.jpg"
+import Button from "../Button/Button"
 const productItems=[
     {
         img: img01
@@ -110,7 +111,7 @@ function ListProduct (){
                 ))}
             </div>
             <div className="see-more">
-                <button className="see-more-btn">see more</button>
+                <Button/>
             </div>
         </div>
     )
