@@ -699,7 +699,7 @@ img.logo {
 @media(max-width: 1024px){
   .container_{
     width: 100%;
-    overflow: scroll;
+    /* overflow: scroll; */
   }
   .introduction{
     height: 100%;
@@ -723,6 +723,12 @@ img.logo {
   .best-product-title{
     font-size: 30px;
     padding-top: 48px;
+  }
+  .brand-story_top_img{
+    display: none;
+  }
+  .top-image-right>img{
+    display: none;
   }
   .best-product-content{
     height: 52px;
@@ -795,5 +801,228 @@ img.logo {
     letter-spacing: normal;
     text-align: left;
     color: var(--black-three);
+  }
+  
+}
+@media (max-width: 576px) { 
+  .brand-story{
+    width: 100%;
+    padding-bottom: 17px;
+  }
+  
+  .brand-story_content{
+    padding-top:39px;
+  }
+  .brand-story_top_img{
+    display: none;
+  }
+  .story_content>span{
+    font-size: 10px;
+  }
+  .story-title{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .top-image-right{
+    display: none;
+  }
+  .brand-story_bottom{
+    width: 100%;
+    display: flex;
+    margin-top: 78px;
+    position: relative;
+  }
+  .book-life{
+    width: 32px;
+    height: 98px;
+    bottom: 0px;
+  }
+  .book-white{
+    width: 40px;
+    height: 55px;
+    transform: translate(0%,65%);
+  }
+  .collaboration{
+    z-index: 2;
+    transform: translate(-4px,-6px);
+    position: relative;
+    height: 105px;
+  }
+  .collaboration>img{
+    width: 275px;
+    height: 105px;
+  }
+  .plant{
+    width: 87px;
+    height: 150px;
+    transform: translate(-98%,-50%);
+   
+  }
+  .calendar{
+    width: 150px;
+    height: 53px;
+    transform: translate(-10%,80%);
+    z-index: 1;
+  }
+  .brand-story_description{
+    width: 141px;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    padding: 13px 0px 4px 28px;
+    overflow: hidden;
+  }
+  .brand-story_title{
+    font-size: 5px;
+    line-height: 1;
+  }
+  .story_description{
+    width: 100px;
+    height: 135px;
+    margin: 9px 0 7px 1px;
+    font-size: 4px;
+  }
+  .brand-story_description > button{
+    display: none;
+  }
+  .issue{
+    padding-bottom: 42px;
+  }
+  .issue-top{
+    margin-bottom: 40px;
+  }
+  .issue-top-img{
+    margin-top: 7px;
+  }
+  .issue-top_img{
+   display: block;
+  }
+  .newob{
+    margin-right: 7px;
+    width: 35px;
+    height: 35px;
+  }
+  .newob2{
+    margin-top: 5px;
+    margin-right: 8px;
+    width: 35px;
+    height: 35px;
+  }
+  .issue-top-content{
+    padding-top: 58px;
+  }
+  .issue-top-description{
+    margin-bottom: 15px;
+  }
+  .issue-top-description>span{
+    color: var(--dark-brown) !important;
+  }
+  .issue-top-title{
+    font-size: 25px;
+    line-height: 1;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+  }
+  .whpn-issue{
+    width: 20%;
+    padding: 27px 10px 35px 27px;
+  }
+  .whpn-issue>img{
+    width: 100%;
+  }
+  .whpn-issue-text{
+    margin: 0 0 3px;
+    font-size: 15px;
+    line-height: 1;
+    width: 100%;
+    height: 60px;
+  }
+  .brand-title{
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1;
+    padding: 10px 0px;
+    background-color: var(--dark-brown);
+  }
+  .brand-image{
+    width: 100%;
+    left: -1px;
+  }
+  .coin{
+    display: none;
+  }
+  .hot {
+    display: none;
+  }
+  .lol{
+    display: none;
+  }
+  .comment-top-title{
+    font-size: 25px;
+    line-height: 1;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+  }
+  .comment-top-description{
+    margin-bottom: 23px;
+  }
+  .comment-top-description>span{
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  .h-video{
+    width: 40px;
+    position: absolute;
+    top:0px;
+    transform: translate(150%,0%);
+  }
+  .video4{
+    transform: translate(-56%,-42%);
+    width: 80px;
+  }
+  .comment-pic-right{
+    position: absolute;
+    right: -5%;
+    top: 25%;
+  }
+  .video7{
+    width: 60px;
+  }
+  .video6{
+    transform: translate(-160%,90%);
+    width: 50px;
+  }
+  .video{
+    width: 100%;
+    position: relative;
+    transform: translate(0%,5%);
+    z-index: 10;
+    margin-bottom: 20px;
+  }
+  .video1{
+    margin-top: 10px;
+    position: relative;
+    transform: translate(0%,30%);
+    z-index: 1;
+    width: 50%;
+  }
+  .video9{
+    position: absolute;
+    right: -9%;
+    transform: translate(0%,300px);
+    width: 90px;
+  }
+  .video8{
+    position: relative;
+    transform: translate(300px,55%);
+    right: 0px;
+    width: 70px;
+  }
+  .video3{
+    position: absolute;
+    transform: translate(-150%,-15%);
+    width: 50px;
   }
 }
