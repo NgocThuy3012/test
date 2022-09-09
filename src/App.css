@@ -237,7 +237,7 @@ img.logo {
   position: relative;
 }
 .create-mobile > span {
-  width: 188px;
+  width: 100%;
   margin: 13px 81px 9px 13px;
   font-family: Montserrat-ExtraBold;
   font-size: var(--description);
