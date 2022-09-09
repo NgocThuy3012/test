@@ -14,10 +14,42 @@
   --greyish:#a9a9a9;
   --kelley-green:#00833f;
   --title50: 50px;
+  --title45: 45px;
+  --description16: 16px;
   --description: 20px;
+  --size25: 25px;
+  --size14: 14px;
+  --size10: 10px;
+  --size18: 18px;
+  --size6: 6px;
+  --size15: 15px;
+  --size30: 30px;
+  --size4: 4px;
+  --size23: 23px;
+  --size55: 55px;
+  --size5: 5px;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Noto+Sans+KR:wght@300&family=Roboto:wght@100&display=swap');
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("./assets/font/Montserrat/static/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: url("./assets/font/Montserrat/static/Montserrat-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("./assets/font/Montserrat/static/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("./assets/font/Montserrat/static/Montserrat-SemiBold.ttf");
+}
+@font-face {
+  font-family: "NotoSansKR";
+  src: url('./assets/font/Noto_Sans_KR/NotoSansKR-Light.otf');
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Noto+Sans+KR:wght@300&family=Roboto:wght@100&display=swap'); */
 .container_{
   width: 1920px;
   overflow: hidden;
@@ -51,8 +83,8 @@ img.logo {
   display: inline-block;
   margin-left: 74px;
   height: 11px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-family: Montserrat-Regular;
+  font-size:var(--size14);
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -84,7 +116,7 @@ img.logo {
 }
 .introduction-title{
   padding: 174px 0px 69px 173px;
-  font-family: 'Montserrat-ExtraBold', sans-serif;
+  font-family: Montserrat-ExtraBold;
   font-size: var(--title50);
   font-weight: 800;
   font-stretch: normal;
@@ -99,8 +131,8 @@ img.logo {
   width: 667px;
   height: 125px;
   padding: 0px 0px 0px 173px;
-  font-family: 'Montserrat-ExtraBold', sans-serif;
-  font-size: 20px;
+  font-family: Montserrat-Regular;
+  font-size: var(--description);
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -124,7 +156,7 @@ img.logo {
   width: 665px;
 }
 .best-product-title{
-  font-family: 'Montserrat-Bold', sans-serif;
+  font-family: Montserrat-Bold;
   font-size: var(--title50);
   font-weight: bold;
   font-stretch: normal;
@@ -139,8 +171,8 @@ img.logo {
 .best-product-content{
   /* width: 665px; */
   height: 52px;
-  font-family: 'Montserrat-Regular', sans-serif;
-  font-size: 20px;
+  font-family: Montserrat-Regular;
+  font-size: var(--description);
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -173,8 +205,8 @@ img.logo {
   top:-46px;
 }
 .product-icon > span {
-  font-family: 'Montserrat-ExtraBold', sans-serif;
-  font-size: 30px;
+  font-family: Montserrat-ExtraBold;
+  font-size: var(--size30);
   font-weight: 800;
   font-stretch: normal;
   font-style: normal;
@@ -207,8 +239,8 @@ img.logo {
 .create-mobile > span {
   width: 188px;
   margin: 13px 81px 9px 13px;
-  font-family: 'Montserrat-ExtraBold', sans-serif;
-  font-size: 20px;
+  font-family: Montserrat-ExtraBold;
+  font-size: var(--description);
   font-weight: 800;
   line-height: 25px;
   text-align: left;
@@ -236,8 +268,8 @@ img.logo {
 .product-item_title{
   margin-top: 29px;
   margin-bottom: 31px;
-  font-family: 'Montserrat-SemiBold', sans-serif;
-  font-size: 18px;
+  font-family: Montserrat-SemiBold;
+  font-size: var(--size18);
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -253,8 +285,8 @@ img.logo {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  font-family: 'Montserrat-Regular', sans-serif;
-  font-size: 16px;
+  font-family: Montserrat-Regular;
+  font-size: var(--description16);
 }
 .product-item-icon{
   margin-right: 7px;
@@ -273,8 +305,8 @@ img.logo {
 }
 .see-more-btn{
   width: 200px;
-  font-family: 'Montserrat-ExtraBold', sans-serif;
-  font-size: 23px;
+  font-family: Montserrat-ExtraBold;
+  font-size: var(--size23);
   font-weight: 800;
   font-stretch: normal;
   font-style: normal;
@@ -316,8 +348,8 @@ img.logo {
 }
 .story_content>span{
   width: 682px;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 16px;
+  font-family: NotoSansKR;
+  font-size: var(--description16);
   font-weight: 300;
   font-stretch: normal;
   text-align: center;
@@ -326,8 +358,8 @@ img.logo {
   color: var(--sun-yellow);
 }
 .story-title{
-  font-family: 'Montserrat-Bold', sans-serif;
-  font-size: 45px;
+  font-family: Montserrat-Bold;
+  font-size: var(--title45);
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.33;
@@ -392,8 +424,8 @@ img.logo {
   padding: 63px 68px 54px 68px;
 }
 .brand-story_title{
-  font-family: 'Montserrat-ExtraBold', sans-serif;
-  font-size: 25px;
+  font-family: Montserrat-ExtraBold;
+  font-size: var(--size25);
   font-weight: 800;
   font-stretch: normal;
   font-style: normal;
@@ -407,8 +439,8 @@ img.logo {
   width: 528px;
   height: 135px;
   margin: 39px 0 47px 1px;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 16px;
+  font-family: NotoSansKR;
+  font-size: var(--description16);
   font-weight: 300;
   font-stretch: normal;
   font-style: normal;
@@ -453,8 +485,8 @@ img.logo {
   color: var(--dark-brown) !important;
 }
 .issue-top-title{
-  font-family: 'Montserrat-Bold', sans-serif;
-  font-size: 45px;
+  font-family: Montserrat-Bold;
+  font-size: var(--title45);
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -479,8 +511,8 @@ img.logo {
   width: 189px;
   height: 97px;
   margin: 0 0 63px;
-  font-family: 'Montserrat-ExtraBold', sans-serif;
-  font-size: 55px;
+  font-family: Montserrat-ExtraBold;
+  font-size: var(--size55);
   font-weight: 800;
   font-stretch: normal;
   font-style: normal;
@@ -502,8 +534,8 @@ img.logo {
   background-color: var(--bright-orange-two) !important;
 }
 .brand-title{
-  font-family: 'Montserrat-ExtraBold', sans-serif;
-  font-size: 30px;
+  font-family: Montserrat-ExtraBold;
+  font-size: var(--size30);
   font-weight: 800;
   font-stretch: normal;
   font-style: normal;
@@ -540,7 +572,7 @@ img.logo {
   
 }
 .comment-top-title{
-  font-family: 'Montserrat-ExtraBold', sans-serif;
+  font-family: Montserrat-ExtraBold;
   font-size: var(--title50);
   font-weight: 800;
   font-stretch: normal;
@@ -559,8 +591,8 @@ img.logo {
   margin-bottom: 53px;
 }
 .comment-top-description>span{
-  font-family: 'Montserrat-Regular', sans-serif;
-  font-size: 20px;
+  font-family: Montserrat-Regular;
+  font-size: var(--description);
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -618,8 +650,8 @@ img.logo {
 }
 .footer-title{
   margin-bottom: 21px;
-  font-family: 'Montserrat-ExtraBold', sans-serif;
-  font-size: 14px;
+  font-family: Montserrat-ExtraBold;
+  font-size:var(--size14);
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -632,8 +664,8 @@ img.logo {
   width: 235px;
   height: 135px;
   margin-bottom: 83px;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 14px;
+  font-family: NotoSansKR;
+  font-size:var(--size14);
   font-weight: 300;
   font-stretch: normal;
   font-style: normal;
@@ -643,8 +675,8 @@ img.logo {
   color: var(--black-two);
 }
 .copyright{
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 14px;
+  font-family: NotoSansKR;
+  font-size:var(--size14);
   font-weight: 300;
   font-stretch: normal;
   font-style: normal;
@@ -654,8 +686,8 @@ img.logo {
   color: var(--greyish);
 }
 .menu-item-title{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-family: Montserrat-SemiBold;
+  font-size:var(--size14);
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -666,8 +698,8 @@ img.logo {
 }
 .menu-item-content{
   width: 82px;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 14px;
+  font-family: NotoSansKR;
+  font-size:var(--size14);
   font-weight: 300;
   font-stretch: normal;
   font-style: normal;
@@ -714,11 +746,11 @@ img.logo {
   }
   .introduction-title{
     padding: 34px 0px 29px 34px;
-    font-size: 30px;
+    font-size: var(--size30);
   }
   .introduction-content{
     padding: 0px 0px 0px 34px;
-    font-size: 16px;
+    font-size: var(--description16);
   }
   .best-product{
     height: 100%;
@@ -729,14 +761,14 @@ img.logo {
     width: 665px;
   }
   .best-product-title{
-    font-size: 30px;
+    font-size: var(--size30);
     padding-top: 48px;
   }
   
   .best-product-content{
     height: 52px;
-    font-family: 'Montserrat-Regular', sans-serif;
-    font-size: 16px;
+    font-family: Montserrat-Regular;
+    font-size: var(--description16);
     padding: 0px 27px;
     margin-bottom: 74px;
     margin-top: 30px;
@@ -770,7 +802,7 @@ img.logo {
   .create-mobile > span {
     width: 50px;
     /* margin: 13px 81px 9px 13px; */
-    font-size: 6px;
+    font-size: var(--size6);
     font-weight: 800;
     line-height: 6px;
     text-align: left;
@@ -795,8 +827,8 @@ img.logo {
   .product-item_title{
     margin-top: 29px;
     margin-bottom: 31px;
-    font-family: 'Montserrat-SemiBold', sans-serif;
-    font-size: 18px;
+    font-family: Montserrat-SemiBold;
+    font-size: var(--size18);
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
@@ -819,10 +851,10 @@ img.logo {
     transform: translate(90%,0%);
   }
   .story_content>span{
-    font-size: 10px;
+    font-size: var(--size10);
   }
   .story-title{
-    font-size: 25px;
+    font-size: var(--size25);
     margin-bottom: 10px;
   }
   .object3 {
@@ -881,14 +913,14 @@ img.logo {
     overflow: hidden;
   }
   .brand-story_title{
-    font-size: 14px;
+    font-size:var(--size14);
     line-height: 1;
   }
   .story_description{
     width: 250px;
     height: 135px;
     margin: 9px 0 7px 1px;
-    font-size: 10px;
+    font-size: var(--size10);
   }
   .brand-story_description > button{
     display: none;
@@ -926,7 +958,7 @@ img.logo {
     color: var(--dark-brown) !important;
   }
   .issue-top-title{
-    font-size: 25px;
+    font-size: var(--size25);
     line-height: 1;
     letter-spacing: 4px;
     margin-bottom: 10px;
@@ -940,14 +972,14 @@ img.logo {
   }
   .whpn-issue-text{
     margin: 0 0 3px;
-    font-size: 15px;
+    font-size: var(--size15);
     line-height: 1;
     width: 100%;
     height: 60px;
   }
   .brand-title{
-    font-family: 'Montserrat-ExtraBold', sans-serif;
-    font-size: 16px;
+    font-family: Montserrat-ExtraBold;
+    font-size: var(--description16);
     font-weight: 800;
     line-height: 1;
     padding: 10px 0px;
@@ -967,7 +999,7 @@ img.logo {
     display: none;
   }
   .comment-top-title{
-    font-size: 25px;
+    font-size: var(--size25);
     line-height: 1;
     letter-spacing: 5px;
     margin-bottom: 20px;
@@ -976,7 +1008,7 @@ img.logo {
     margin-bottom: 23px;
   }
   .comment-top-description>span{
-    font-size: 16px;
+    font-size: var(--description16);
     line-height: 1.2;
   }
   .h-video{
@@ -1046,10 +1078,10 @@ img.logo {
     display: none;
   }
   .story_content>span{
-    font-size: 10px;
+    font-size: var(--size10);
   }
   .story-title{
-    font-size: 25px;
+    font-size: var(--size25);
     margin-bottom: 10px;
   }
   .top-image-right{
@@ -1103,14 +1135,14 @@ img.logo {
     overflow: hidden;
   }
   .brand-story_title{
-    font-size: 5px;
+    font-size: var(--size5);
     line-height: 1;
   }
   .story_description{
     width: 100px;
     height: 135px;
     margin: 9px 0 7px 1px;
-    font-size: 4px;
+    font-size: var(--size4);
   }
   .brand-story_description > button{
     display: none;
@@ -1148,7 +1180,7 @@ img.logo {
     color: var(--dark-brown) !important;
   }
   .issue-top-title{
-    font-size: 25px;
+    font-size: var(--size25);
     line-height: 1;
     letter-spacing: 4px;
     margin-bottom: 10px;
@@ -1162,14 +1194,14 @@ img.logo {
   }
   .whpn-issue-text{
     margin: 0 0 3px;
-    font-size: 15px;
+    font-size: var(--size15);
     line-height: 1;
     width: 100%;
     height: 60px;
   }
   .brand-title{
-    font-family: 'Montserrat-ExtraBold', sans-serif;
-    font-size: 16px;
+    font-family: Montserrat-ExtraBold;
+    font-size: var(--description16);
     font-weight: 800;
     line-height: 1;
     padding: 10px 0px;
@@ -1189,7 +1221,7 @@ img.logo {
     display: none;
   }
   .comment-top-title{
-    font-size: 25px;
+    font-size: var(--size25);
     line-height: 1;
     letter-spacing: 5px;
     margin-bottom: 20px;
@@ -1198,7 +1230,7 @@ img.logo {
     margin-bottom: 23px;
   }
   .comment-top-description>span{
-    font-size: 16px;
+    font-size: var(--description16);
     line-height: 1.2;
   }
   .h-video{

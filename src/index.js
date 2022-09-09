@@ -3,7 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import './assets/font/Montserrat/static/Montserrat-Regular.ttf'
+import './assets/font/Montserrat/static/Montserrat-ExtraBold.ttf'
+import './assets/font/Montserrat/static/Montserrat-Bold.ttf'
+import './assets/font/Montserrat/static/Montserrat-SemiBold.ttf'
+import './assets/font/Noto_Sans_KR/NotoSansKR-Light.otf'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
