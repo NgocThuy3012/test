@@ -13,6 +13,8 @@
   --bright-orange-two:#ff5500;
   --greyish:#a9a9a9;
   --kelley-green:#00833f;
+  --title50: 50px;
+  --description: 20px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Noto+Sans+KR:wght@300&family=Roboto:wght@100&display=swap');
@@ -83,7 +85,7 @@ img.logo {
 .introduction-title{
   padding: 174px 0px 69px 173px;
   font-family: 'Montserrat-ExtraBold', sans-serif;
-  font-size: 50px;
+  font-size: var(--title50);
   font-weight: 800;
   font-stretch: normal;
   font-style: normal;
@@ -123,7 +125,7 @@ img.logo {
 }
 .best-product-title{
   font-family: 'Montserrat-Bold', sans-serif;
-  font-size: 50px;
+  font-size: var(--title50);
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -539,7 +541,7 @@ img.logo {
 }
 .comment-top-title{
   font-family: 'Montserrat-ExtraBold', sans-serif;
-  font-size: 50px;
+  font-size: var(--title50);
   font-weight: 800;
   font-stretch: normal;
   font-style: normal;
@@ -696,7 +698,13 @@ img.logo {
   height: 22px;
   color: var(--bright-orange);
 }
-@media(max-width: 1024px){
+@media (max-width: 1024px){
+  .container_{
+    width: 100%;
+    /* overflow: scroll; */
+  }
+}
+@media(max-width: 991.98px){
   .container_{
     width: 100%;
     /* overflow: scroll; */
@@ -724,12 +732,7 @@ img.logo {
     font-size: 30px;
     padding-top: 48px;
   }
-  .brand-story_top_img{
-    display: none;
-  }
-  .top-image-right>img{
-    display: none;
-  }
+  
   .best-product-content{
     height: 52px;
     font-family: 'Montserrat-Regular', sans-serif;
@@ -802,7 +805,233 @@ img.logo {
     text-align: left;
     color: var(--black-three);
   }
+  /* ============================================================================== */
+  .brand-story{
+    width: 100%;
+    padding-bottom: 17px;
+  }
   
+  .brand-story_content{
+    padding-top:39px;
+  }
+  .brand-story_top_img{
+    width: 75px;
+    transform: translate(90%,0%);
+  }
+  .story_content>span{
+    font-size: 10px;
+  }
+  .story-title{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .object3 {
+    width: 60px;
+    transform: translate(120%,-73%);
+  }
+  .object2 {
+    width: 60px;
+    transform: translate(150%,-130%);
+  }
+  .brand-story_bottom{
+    width: 100%;
+    display: flex;
+    margin-top: 78px;
+    position: relative;
+  }
+  .book-life{
+    width: 72px;
+    height: 138px;
+    bottom: 0px;
+  }
+  .book-white{
+    width: 70px;
+    height: 95px;
+    transform: translate(0%,45%);
+  }
+  .collaboration{
+    z-index: 2;
+    transform: translate(-4px,-15px);
+    position: relative;
+    height: 105px;
+  }
+  .collaboration>img{
+    width: 555px;
+    height: 175px;
+  }
+  .plant{
+    width: 97px;
+    height: 170px;
+    transform: translate(-98%,-50%);
+   
+  }
+  .calendar{
+    width: 240px;
+    height: 95px;
+    transform: translate(-5%,73%);
+    z-index: 1;
+  }
+  .brand-story_description{
+    width: 300px;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    padding: 13px 0px 4px 28px;
+    overflow: hidden;
+  }
+  .brand-story_title{
+    font-size: 14px;
+    line-height: 1;
+  }
+  .story_description{
+    width: 250px;
+    height: 135px;
+    margin: 9px 0 7px 1px;
+    font-size: 10px;
+  }
+  .brand-story_description > button{
+    display: none;
+  }
+  .issue{
+    padding-bottom: 42px;
+  }
+  .issue-top{
+    margin-bottom: 40px;
+  }
+  .issue-top-img{
+    margin-top: 7px;
+  }
+  .issue-top_img{
+   display: block;
+  }
+  .newob{
+    margin-right: 7px;
+    width: 35px;
+    height: 35px;
+  }
+  .newob2{
+    margin-top: 5px;
+    margin-right: 8px;
+    width: 35px;
+    height: 35px;
+  }
+  .issue-top-content{
+    padding-top: 58px;
+  }
+  .issue-top-description{
+    margin-bottom: 15px;
+  }
+  .issue-top-description>span{
+    color: var(--dark-brown) !important;
+  }
+  .issue-top-title{
+    font-size: 25px;
+    line-height: 1;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+  }
+  .whpn-issue{
+    width: 20%;
+    padding: 27px 10px 35px 27px;
+  }
+  .whpn-issue>img{
+    width: 100%;
+  }
+  .whpn-issue-text{
+    margin: 0 0 3px;
+    font-size: 15px;
+    line-height: 1;
+    width: 100%;
+    height: 60px;
+  }
+  .brand-title{
+    font-family: 'Montserrat-ExtraBold', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1;
+    padding: 10px 0px;
+    background-color: var(--dark-brown);
+  }
+  .brand-image{
+    width: 100%;
+    left: -1px;
+  }
+  .coin{
+    display: none;
+  }
+  .hot {
+    display: none;
+  }
+  .lol{
+    display: none;
+  }
+  .comment-top-title{
+    font-size: 25px;
+    line-height: 1;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+  }
+  .comment-top-description{
+    margin-bottom: 23px;
+  }
+  .comment-top-description>span{
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  .h-video{
+    width: 50px;
+    position: absolute;
+    top:0px;
+    transform: translate(150%,0%);
+  }
+  .video4{
+    transform: translate(-56%,-42%);
+    width: 200px;
+  }
+  .comment-pic-right{
+    position: absolute;
+    right: -5%;
+    top: 25%;
+  }
+  .video7{
+    width: 80px;
+    transform: translate(0%,-70%);
+  }
+  .video6{
+    transform: translate(-160%,-10%);
+    width: 80px;
+  }
+  .video{
+    width: 70%;
+    position: relative;
+    transform: translate(-15%,35%);
+    z-index: 10;
+    margin-bottom: 20px;
+  }
+  .video1{
+    /* margin-top: 10px; */
+    position: relative;
+    transform: translate(-120%,40%);
+    z-index: 1;
+    width: 20%;
+  }
+  .video9{
+    position: absolute;
+    transform: translate(10%,120%);
+    width: 190px;
+  }
+  .video8{
+    position: relative;
+    transform: translate(200%,5%);
+    right: 0px;
+    width: 300px;
+  }
+  .video3{
+    position: absolute;
+    transform: translate(-390px,200%);
+    width: 50px;
+  }
 }
 @media (max-width: 576px) { 
   .brand-story{
